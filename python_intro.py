@@ -32,3 +32,34 @@ elif 80 <= volume < 100:
     print("A bit loud!")
 else:
     print("My ears are hurting! :(")
+
+def hi():
+    print('Hi there!')
+    print('How are you?')
+
+hi()
+
+def hi(name):
+    if name == 'Ola':
+        print('Hi Ola!')
+    elif name == 'Sonja':
+        print('Hi Sonja!')
+    else:
+        print('Hi anonymous!')
+
+hi("Sonja")
+
+def hi2(name):
+    print('Hi ' + name + '!')
+
+girls = ['Rachel', 'Monica', 'Phoebe', 'Ola', 'You']
+for name in girls:
+    hi2(name)
+    print('Next girl')
+
+
+for i in range(1, 6):
+    print(i)
+
+for i in range(1, 6):
+    print(i ** 2)
